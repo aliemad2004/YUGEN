@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YŪGEN – يوغِن | Japanese Fine Dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+<header class="header">
+        <div class="container header-inner">
+            <div class="logo">YŪ<span>GEN</span></div>
+            <nav class="nav">
+                <button class="nav-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link ar">من نحن</a><a href="#about" class="nav-link en" style="display:none;">About</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link ar">قائمة الطعام</a><a href="#menu" class="nav-link en" style="display:none;">Menu</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link ar">الأجواء</a><a href="#gallery" class="nav-link en" style="display:none;">Gallery</a></li>
+                    <li class="nav-item"><a href="#chefs" class="nav-link ar">طاقمنا</a><a href="#chefs" class="nav-link en" style="display:none;">Chefs</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link ar">اتصل بنا</a><a href="#contact" class="nav-link en" style="display:none;">Contact</a></li>
+                    <li class="nav-item nav-item-toggle">
+                        <button id="themeToggle" class="toggle-btn nav-toggle-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item nav-item-toggle">
+                        <button id="langToggle" class="toggle-btn nav-toggle-btn">
+                            <i class="fas fa-language"></i> AR
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1 class="hero-title ar">تجربة يابانية فاخرة</h1>
+                <h1 class="hero-title en" style="display:none;">Exquisite Japanese Dining</h1>
+                <p class="hero-subtitle ar">في قلب دبي، حيث تلتقي الأصالة بالحداثة في أطباق مستوحاة من فنون الطهي الياباني</p>
+                <p class="hero-subtitle en" style="display:none;">In the heart of Dubai, where tradition meets modernity in Japanese culinary arts</p>
+                <div class="hero-buttons">
+                    <a href="#reservation" class="btn ar">احجز طاولتك</a>
+                    <a href="#reservation" class="btn en" style="display:none;">Reserve a Table</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title ar">من نحن</h2>
+            <h2 class="section-title en" style="display:none;">About Us</h2>
+            <p class="about-description ar">في Yūgen، نقدم لك تجربة طعام يابانية أصيلة بلمسة عصرية راقية. ندمج بين التقاليد العريقة للمطبخ الياباني وأحدث التقنيات في الطهي لتعيش تجربة ذوقية لا تُنسى.</p>
+            <p class="about-description en" style="display:none;">At Yūgen, we offer an authentic Japanese dining experience with a modern twist. We blend traditional Japanese culinary arts with contemporary techniques to create unforgettable flavors.</p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3 class="about-card-title ar">أطباق أصيلة</h3>
+                    <h3 class="about-card-title en" style="display:none;">Authentic Dishes</h3>
+                    <p class="about-card-text ar">وصفات تقليدية مستوحاة من مناطق مختلفة في اليابان</p>
+                    <p class="about-card-text en" style="display:none;">Traditional recipes inspired by various regions of Japan</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-seedling"></i>
+                    <h3 class="about-card-title ar">مكونات طازجة</h3>
+                    <h3 class="about-card-title en" style="display:none;">Fresh Ingredients</h3>
+                    <p class="about-card-text ar">نستخدم فقط أفضل المكونات المستوردة من اليابان</p>
+                    <p class="about-card-text en" style="display:none;">We use only the finest ingredients imported from Japan</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <h3 class="about-card-title ar">تجربة متكاملة</h3>
+                    <h3 class="about-card-title en" style="display:none;">Complete Experience</h3>
+                    <p class="about-card-text ar">أجواء يابانية أصيلة مع خدمة فاخرة</p>
+                    <p class="about-card-text en" style="display:none;">Authentic Japanese ambiance with premium service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu section">
+        <div class="container">
+            <h2 class="section-title ar">قائمة الطعام</h2>
+            <h2 class="section-title en" style="display:none;">Our Menu</h2>
+
+            <div class="menu-categories">
+                <button class="menu-category active ar">السوشي والساشيمي</button>
+                <button class="menu-category active en" style="display:none;">Sushi & Sashimi</button>
+                <button class="menu-category ar">الأطباق الرئيسية</button>
+                <button class="menu-category en" style="display:none;">Main Courses</button>
+                <button class="menu-category ar">المقبلات</button>
+                <button class="menu-category en" style="display:none;">Appetizers</button>
+                <button class="menu-category ar">التحلية</button>
+                <button class="menu-category en" style="display:none;">Desserts</button>
+                <button class="menu-category ar">المشروبات</button>
+                <button class="menu-category en" style="display:none;">Beverages</button>
+            </div>
+
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3 class="menu-item-title ar">سوشي السلمون المتبل <span>58 درهم</span></h3>
+                    <h3 class="menu-item-title en" style="display:none;">Spiced Salmon Sushi <span>AED 58</span></h3>
+                    <p class="menu-item-description ar">قطع سلمون طازج مع صلصة الصويا الخاصة</p>
+                    <p class="menu-item-description en" style="display:none;">Fresh salmon with special soy sauce</p>
+                </div>
+                <div class="menu-item">
+                    <h3 class="menu-item-title ar">سوشي التونة الزرقاء <span>62 درهم</span></h3>
+                    <h3 class="menu-item-title en" style="display:none;">Bluefin Tuna Sushi <span>AED 62</span></h3>
+                    <p class="menu-item-description ar">تونة زرقاء ممتازة مع أرز ياباني</p>
+                    <p class="menu-item-description en" style="display:none;">Premium bluefin tuna with Japanese rice</p>
+                </div>
+                <div class="menu-item">
+                    <h3 class="menu-item-title ar">رامِن التونكاتسو <span>79 درهم</span></h3>
+                    <h3 class="menu-item-title en" style="display:none;">Tonkatsu Ramen <span>AED 79</span></h3>
+                    <p class="menu-item-description ar">شوربة رامِن مع لحم الخنزير المقلي</p>
+                    <p class="menu-item-description en" style="display:none;">Ramen soup with fried pork cutlet</p>
+                </div>
+                <div class="menu-item">
+                    <h3 class="menu-item-title ar">موشي آيس كريم <span>29 درهم</span></h3>
+                    <h3 class="menu-item-title en" style="display:none;">Mochi Ice Cream <span>AED 29</span></h3>
+                    <p class="menu-item-description ar">بثلاث نكهات: مانجو، فانيليا، ماتشا</p>
+                    <p class="menu-item-description en" style="display:none;">Three flavors: mango, vanilla, matcha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <h2 class="section-title ar">الأجواء</h2>
+            <h2 class="section-title en" style="display:none;">Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Yūgen Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sushi Platter">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Japanese Cuisine">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Chef Preparing Food">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Dining Area">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563612116625-3012372fccce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Japanese Desserts">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chefs" class="chefs section">
+        <div class="container">
+            <h2 class="section-title ar">طاقمنا</h2>
+            <h2 class="section-title en" style="display:none;">Our Chefs</h2>
+
+            <div class="chef-grid">
+                <div class="chef-card">
+                    <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Chef Hiroshi" class="chef-img">
+                    <h3 class="chef-name ar">هيروشي تاكاهاشي</h3>
+                    <h3 class="chef-name en" style="display:none;">Hiroshi Takahashi</h3>
+                    <p class="chef-title ar">شيف رئيسي - خبير في السوشي</p>
+                    <p class="chef-title en" style="display:none;">Head Chef - Sushi Expert</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="chef-card">
+                    <img src="https://images.unsplash.com/photo-15560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Chef Aiko" class="chef-img">
+                    <h3 class="chef-name ar">أيكو ناكامورا</h3>
+                    <h3 class="chef-name en" style="display:none;">Aiko Nakamura</h3>
+                    <p class="chef-title ar">شيف الحلويات اليابانية</p>
+                    <p class="chef-title en" style="display:none;">Japanese Dessert Chef</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="chef-card">
+                    <img src="https://images.unsplash.com/photo-1600566752225-5376a9f8b0a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Chef Kenji" class="chef-img">
+                    <h3 class="chef-name ar">كينجي ساتو</h3>
+                    <h3 class="chef-name en" style="display:none;">Kenji Sato</h3>
+                    <p class="chef-title ar">خبير في أطباق الرامن</p>
+                    <p class="chef-title en" style="display:none;">Ramen Specialist</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials section">
+        <div class="container">
+            <h2 class="section-title ar">آراء العملاء</h2>
+            <h2 class="section-title en" style="display:none;">Testimonials</h2>
+
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Customer" class="testimonial-img">
+                    <div class="testimonial-text ar">
+                        أفضل تجربة سوشي في دبي! النكهات أصيلة والخدمة ممتازة. سأعود بالتأكيد
+                    </div>
+                    <div class="testimonial-text en" style="display:none;">
+                        The best sushi experience in Dubai! Authentic flavors and excellent service. Will definitely return
+                    </div>
+                    <div class="testimonial-author ar">سارة محمد</div>
+                    <div class="testimonial-author en" style="display:none;">Sarah Mohammed</div>
+                </div>
+                <div class="testimonial">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer" class="testimonial-img">
+                    <div class="testimonial-text ar">
+                        الأجواء اليابانية الحقيقية والطعام الرائع. خاصة رامن التونكاتسو
+                    </div>
+                    <div class="testimonial-text en" style="display:none;">
+                        Authentic Japanese ambiance and wonderful food. Especially the tonkatsu ramen
+                    </div>
+                    <div class="testimonial-author ar">أحمد الخليفي</div>
+                    <div class="testimonial-author en" style="display:none;">Ahmed Al-Khalifi</div>
+                </div>
+                <div class="testimonial">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Customer" class="testimonial-img">
+                    <div class="testimonial-text ar">
+                        الحلويات اليابانية هنا لا تقارن! الموشي آيس كريم كان رائعاً
+                    </div>
+                    <div class="testimonial-text en" style="display:none;">
+                        The Japanese desserts here are incomparable! The mochi ice cream was amazing
+                    </div>
+                    <div class="testimonial-author ar">نورا سمير</div>
+                    <div class="testimonial-author en" style="display:none;">Nora Samir</div>
+                </div>
+
+                <div class="slider-controls">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title ar">اتصل بنا</h2>
+            <h2 class="section-title en" style="display:none;">Contact Us</h2>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-info-title ar">العنوان</h3>
+                    <h3 class="contact-info-title en" style="display:none;">Address</h3>
+                    <p class="contact-info-text"><i class="fas fa-map-marker-alt"></i> برج النور – شارع الشيخ زايد – الطابق الأرضي – دبي</p>
+                </div>
+                <div class="contact-info">
+                    <h3 class="contact-info-title ar">ساعات العمل</h3>
+                    <h3 class="contact-info-title en" style="display:none;">Opening Hours</h3>
+                    <p class="contact-info-text"><i class="fas fa-clock"></i> <span class="ar">الأحد-الخميس: 12 ظهراً - 12 منتصف الليل</span><span class="en" style="display:none;">Sun-Thu: 12PM - 12AM</span></p>
+                    <p class="contact-info-text"><i class="fas fa-clock"></i> <span class="ar">الجمعة-السبت: 1 ظهراً - 1 صباحاً</span><span class="en" style="display:none;">Fri-Sat: 1PM - 1AM</span></p>
+                </div>
+                <div class="contact-info">
+                    <h3 class="contact-info-title ar">رقم الهاتف</h3>
+                    <h3 class="contact-info-title en" style="display:none;">Phone Number</h3>
+                    <p class="contact-info-text"><i class="fas fa-phone"></i> +971 4 123 4567</p>
+                </div>
+                <div class="contact-info">
+                    <h3 class="contact-info-title ar">البريد الإلكتروني</h3>
+                    <h3 class="contact-info-title en" style="display:none;">Email</h3>
+                    <p class="contact-info-text"><i class="fas fa-envelope"></i> info@yugen.ae</p>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.829737372899!2d55.27174348502088!3d25.22578803345481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e00aeed4ed6d1%3A0xbf4b31f5a56c916b!2sBurj%20Al%20Noor!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="reservation-form-wrapper">
+                    <h3 class="reservation-form-title ar">احجز طاولة</h3>
+                    <h3 class="reservation-form-title en" style="display:none;">Reserve a Table</h3>
+                    <form class="reservation-form">
+                        <input type="text" placeholder="الاسم" class="ar" required><input type="text" placeholder="Name" class="en" style="display:none;" required>
+                        <input type="email" placeholder="البريد الإلكتروني" class="ar" required><input type="email" placeholder="Email" class="en" style="display:none;" required>
+                        <input type="tel" placeholder="رقم الهاتف" class="ar" required><input type="tel" placeholder="Phone Number" class="en" style="display:none;" required>
+                        <select class="ar" required>
+                            <option value="">عدد الأشخاص</option>
+                            <option value="1">1 شخص</option>
+                            <option value="2">2 أشخاص</option>
+                            <option value="3">3 أشخاص</option>
+                            <option value="4">4 أشخاص</option>
+                            <option value="5">5+ أشخاص</option>
+                        </select>
+                        <select class="en" style="display:none;" required>
+                            <option value="">Number of Guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                         <input type="datetime-local"  class="ar" required><input type="datetime-local" placeholder="Date and Time" class="en" style="display:none;" required>
+                        <textarea placeholder="رسالة (اختياري)" rows="4" class="ar"></textarea><textarea placeholder="Message (Optional)" rows="4" class="en" style="display:none;"></textarea>
+                        <button type="submit" class="btn btn-primary ar">إرسال</button><button type="submit" class="btn btn-primary en" style="display:none;">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-section">
+                <h3 class="footer-title ar">YŪGEN</h3>
+                <h3 class="footer-title en" style="display:none;">YŪGEN</h3>
+                <p class="footer-description ar">مطعم ياباني فاخر في قلب دبي</p>
+                <p class="footer-description en" style="display:none;">Fine Japanese dining in the heart of Dubai</p>
+                <div class="social-footer">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title ar">روابط سريعة</h3>
+                <h3 class="footer-title en" style="display:none;">Quick Links</h3>
+                <ul class="footer-links">
+                    <li class="footer-item"><a href="#about" class="footer-link ar">من نحن</a><a href="#about" class="footer-link en" style="display:none;">About</a></li>
+                    <li class="footer-item"><a href="#menu" class="footer-link ar">قائمة الطعام</a><a href="#menu" class="footer-link en" style="display:none;">Menu</a></li>
+                    <li class="footer-item"><a href="#gallery" class="footer-link ar">الأجواء</a><a href="#gallery" class="footer-link en" style="display:none;">Gallery</a></li>
+                    <li class="footer-item"><a href="#chefs" class="footer-link ar">طاقمنا</a><a href="#chefs" class="footer-link en" style="display:none;">Chefs</a></li>
+                    <li class="footer-item"><a href="#contact" class="footer-link ar">اتصل بنا</a><a href="#contact" class="footer-link en" style="display:none;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                 <h3 class="footer-title ar">معلومات الاتصال</h3>
+                 <h3 class="footer-title en" style="display:none;">Contact Information</h3>
+                <p class="footer-contact-info"><i class="fas fa-map-marker-alt"></i> برج النور – شارع الشيخ زايد – الطابق الأرضي – دبي</p>
+                <p class="footer-contact-info"><i class="fas fa-phone"></i> +971 4 123 4567</p>
+                <p class="footer-contact-info"><i class="fas fa-envelope"></i> info@yugen.ae</p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2024 YŪGEN. <span class="ar">جميع الحقوق محفوظة</span><span class="en" style="display:none;">All rights reserved</span>
+        </div>
+    </footer>
+
+    <script>
+        // Language Toggle
+        const langToggle = document.getElementById('langToggle');
+        const arElements = document.querySelectorAll('.ar');
+        const enElements = document.querySelectorAll('.en');
+
+        langToggle.addEventListener('click', () => {
+            arElements.forEach(el => el.style.display = el.style.display === 'none' ? '' : 'none');
+            enElements.forEach(el => el.style.display = el.style.display === 'none' ? '' : 'none');
+            langToggle.innerHTML = langToggle.innerHTML.includes('EN') ? '<i class="fas fa-language"></i> AR' : '<i class="fas fa-language"></i> EN';
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            themeToggle.innerHTML = document.body.classList.contains('dark-mode') ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        });
+
+        // Page Load Transition
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+
+        // Header Scroll Effect
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Navigation Toggler
+        const navToggler = document.querySelector('.nav-toggler');
+        const nav = document.querySelector('.nav');
+
+        navToggler.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+
+        // Menu Category Toggle
+        const menuCategories = document.querySelectorAll('.menu-category');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        menuCategories.forEach(category => {
+            category.addEventListener('click', () => {
+                menuCategories.forEach(c => c.classList.remove('active'));
+                category.classList.add('active');
+                const categoryTextAr = category.textContent.trim();
+                const categoryTextEn = category.nextElementSibling ? category.nextElementSibling.textContent.trim() : categoryTextAr;
+
+                menuItems.forEach(item => {
+                    const titleAr = item.querySelector('.menu-item-title.ar') ? item.querySelector('.menu-item-title.ar').textContent : '';
+                    const titleEn = item.querySelector('.menu-item-title.en') ? item.querySelector('.menu-item-title.en').textContent : '';
+
+                    const matchesAr = category.classList.contains('ar') && titleAr.includes(categoryTextAr);
+                    const matchesEn = category.classList.contains('en') && titleEn.includes(categoryTextEn);
+
+                    item.style.display = matchesAr || matchesEn ? '' : 'none';
+                });
+            });
+        });
+
+        // Testimonial Slider
+        const testimonials = document.querySelectorAll('.testimonial');
+        const dots = document.querySelectorAll('.slider-dot');
+        let currentTestimonial = 0;
+
+        function showTestimonial(index) {
+            testimonials.forEach(t => t.classList.remove('active'));
+            dots.forEach(d => d.classList.remove('active'));
+            testimonials[index].classList.add('active');
+            dots[index].classList.add('active');
+        }
+
+        function nextTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        }
+
+        setInterval(nextTestimonial, 5000);
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                showTestimonial(index);
+                currentTestimonial = index;
+            });
+        });
+
+        // Gallery Images Fade In on Scroll
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        function checkVisibility() {
+            galleryItems.forEach(item => {
+                const rect = item.getBoundingClientRect();
+                const isVisible = (rect.top >= 0 && rect.bottom <= window.innerHeight) || (rect.bottom >= 0 && rect.top <= window.innerHeight);
+                if (isVisible) {
+                    item.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('resize', checkVisibility);
+        checkVisibility();
+    </script>
+</body>
+</html>
